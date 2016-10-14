@@ -2,6 +2,9 @@
 title: J. Reel
 timezone: America/New_York
 collections:
+  functional-groups:
+    title: Functional Groups
+    output: true
   posts:
     title: Posts
     output: true
