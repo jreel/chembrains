@@ -2,6 +2,9 @@
 title: J. Reel
 timezone: America/New_York
 collections:
+  compound-classes:
+    title: Compound Classes
+    output: true
   functional-groups:
     title: Functional Groups
     output: true
