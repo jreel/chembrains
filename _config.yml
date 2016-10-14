@@ -1,6 +1,6 @@
 ---
 title: Jreel.Github.Io
-timezone: UTC
+timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -28,7 +28,7 @@ footer-links:
 disqus: 
 google_analytics: 
 url: http://jreel.github.io
-baseurl: ''
+baseurl: 
 prose:
   rooturl: _posts
   siteurl: http://jreel.github.io
@@ -47,7 +47,7 @@ prose:
       field:
         element: text
         label: Title
-        value: ''
+        value: 
     _posts/static:
     - name: layout
       field:
@@ -57,12 +57,12 @@ prose:
       field:
         element: text
         label: Title
-        value: ''
+        value: 
     - name: permalink
       field:
         element: text
         label: Permalink
-        value: ''
+        value: 
 permalink: "/:title/"
 version: v1.2.0
 kramdown:
@@ -71,7 +71,7 @@ kramdown:
   syntax_highlighter_opts:
     css_class: highlight
 sass:
-  style: :expanded
+  style: expanded
 gems:
 - jekyll-sitemap
 - jekyll-feed
