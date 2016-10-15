@@ -27,6 +27,16 @@ baseurl: /chembrains
 permalink: "/:title/"
 paginate: 5
 
+collections:
+  reactions:
+    output: true
+  syntheses
+  definitions
+  compound-classes
+  functional-groups
+  reagents
+  pka
+
 version: v1.2.0
 kramdown:
   input: GFM
