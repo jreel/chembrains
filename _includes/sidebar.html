@@ -10,36 +10,27 @@
         </div>
 
         <nav class="sidebar-nav">
-            <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-            {% comment %}
-            The code below dynamically generates a sidebar nav of pages with
-            `layout: page` in the front-matter. See readme for usage.
-            {% endcomment %}
-
-            {% assign pages_list = site.pages %}
-            {% for node in pages_list %}
-            {% if node.title != null %}
-            {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">
-                {{node.title }}</a>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-
-        </nav>
-
-        <nav class="sidebar-nav">
             <ul>
                 {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
                 {% for p in navigation_pages %}
                 {% if p.navigation_weight %}
                 <li>
-                    <a class="sidebar-nav-item{% if p.url== page.url %} active{% endif %}" href="{{ p.url }}">
+                    <a class="sidebar-nav-item{% if p.url== page.url %} active{% endif %}" href="{{ site.baseurl }}{{ p.url }}">
                         {{ p.title }}
                     </a>
                 </li>
                 {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for c in site.collections %}
+                <li>{{ c[0] | capitalize }}:
+                    <ul>
+                        {% for doc in c[1].docs %}
+                        <li><a href="{{ doc.relative_path }}">{{ doc.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
                 {% endfor %}
             </ul>
         </nav>
