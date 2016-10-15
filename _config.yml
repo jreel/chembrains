@@ -24,9 +24,7 @@ google_analytics:
 url: http://jreel.github.io/chembrains
 baseurl: /chembrains
 
-# permalink: "/:title/"
-permalink:           pretty
-relative_permalinks: true
+permalink: "/:title/"
 paginate: 5
 
 version: v1.2.0
