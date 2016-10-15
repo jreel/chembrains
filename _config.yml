@@ -1,5 +1,5 @@
 ---
-title: orgoing
+title: ChemBrains
 timezone: America/New_York
 collections:
   compound-classes:
@@ -20,8 +20,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: orgoing
-description: "'ȯr-gō-iŋ: (verb) the process of learning, studying, or doing organic chemistry"
+name: ChemBrains
+description: "created by chemistry students, for chemistry students"
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   dribbble: 
@@ -39,8 +39,8 @@ footer-links:
   googleplus: 
 disqus: 
 google_analytics: 
-url: http://jreel.github.io/orgoing
-baseurl: /orgoing
+url: http://jreel.github.io/chembrains
+baseurl: /chembrains
 
 permalink: "/:title/"
 version: v1.2.0
