@@ -1,25 +1,7 @@
 ---
 title: ChemBrains
 timezone: America/New_York
-collections:
-  compound-classes:
-    title: Compound Classes
-    output: true
-  functional-groups:
-    title: Functional Groups
-    output: true
-  posts:
-    title: Posts
-    output: true
-  reactions:
-    title: Reactions
-    output: true
-  syntheses:
-    title: Syntheses
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+
 name: ChemBrains
 description: "created by chemistry students, for chemistry students"
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -42,7 +24,11 @@ google_analytics:
 url: http://jreel.github.io/chembrains
 baseurl: /chembrains
 
-permalink: "/:title/"
+# permalink: "/:title/"
+permalink:           pretty
+relative_permalinks: true
+paginate: 5
+
 version: v1.2.0
 kramdown:
   input: GFM
