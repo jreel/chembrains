@@ -23,14 +23,16 @@
                 {% endfor %}
             </ul>
             <ul>
-                {% for c in site.collections %}
-                <li>{{ c[0] | capitalize }}:
+                {% for collection in site.collections %}
+                {% unless collection.label == 'posts' %}
+                <li>{{ collection.label | capitalize }}:
                     <ul>
-                        {% for doc in c[1].docs %}
+                        {% for doc in ccollection.docs %}
                         <li><a href="{{ doc.relative_path }}">{{ doc.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </li>
+                {% endunless %}
                 {% endfor %}
             </ul>
 
