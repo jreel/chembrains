@@ -31,6 +31,7 @@ collections:
   reactions:
     output: true
 
+
 version: v1.2.0
 kramdown:
   input: GFM

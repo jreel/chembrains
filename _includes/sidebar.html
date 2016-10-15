@@ -27,7 +27,7 @@
                 {% unless collection.label == 'posts' %}
                 <li>{{ collection.label | capitalize }}:
                     <ul>
-                        {% for doc in ccollection.docs %}
+                        {% for doc in collection.docs %}
                         <li><a href="{{ doc.relative_path }}">{{ doc.title }}</a></li>
                         {% endfor %}
                     </ul>
