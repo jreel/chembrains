@@ -3,7 +3,7 @@
         <div class="sidebar-about">
             <h1>
                 <a href="{{ site.baseurl }}">
-                    <img src="{{ site.avatar }}"/>{{ site.title }}
+                    <img class="site-avatar" src="{{ site.avatar }}"/>{{ site.title }}
                 </a>
             </h1>
             <p class="lead">{{ site.description }}</p>
@@ -32,11 +32,9 @@
         <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
 
 
-        <div class="container">
             <footer class="footer">
                 {% include svg-icons.html %}
             </footer>
-        </div>
 
         {% include analytics.html %}
     </div>
