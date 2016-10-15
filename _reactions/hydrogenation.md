@@ -1,5 +1,6 @@
 ---
 layout: page
+navigation_weight: 2
 title: "Hydrogenation"
 name: "Hydrogenation"
 fgi:

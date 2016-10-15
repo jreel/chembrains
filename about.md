@@ -2,6 +2,7 @@
 title: About
 permalink: "/about/"
 layout: page
+navigation_weight: 100
 ---
 
 Some information about you!
