@@ -4,21 +4,6 @@ title: Home
 navigation_weight: 1
 ---
 
-<ul>
-  {% for collection in site.collections %}
-  {% unless collection.label == 'posts' %}
-  {% assign col = collection.label %}
-  <li>{{ col | capitalize }}:
-    <ul>
-      {% for doc in collection.docs %}
-      <li><a href="{{ doc.url }}">{{ doc.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </li>
-  {% endunless %}
-  {% endfor %}
-</ul>
-
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
