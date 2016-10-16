@@ -25,7 +25,7 @@
     <link href="http://gmpg.org/xfn/11" rel="profile">
 
     <title>
-        {% if page.title == "Home" %}
+        {% if page.title == "" %}
         {{ site.title }} &middot; {{ site.tagline }}
         {% else %}
         {{ page.title }} &middot; {{ site.title }}
@@ -62,4 +62,18 @@
     <!-- JS -->
     <script src="{{ site.baseurl }}/js/quotes.js"></script>
 
+
+    <!-- google search -->
+    <script>
+        (function () {
+            var cx = '000888210889775888983:pqb3ch1ewhg';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                    '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
 </head>

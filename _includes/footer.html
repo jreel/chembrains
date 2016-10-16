@@ -5,7 +5,7 @@
 
 
 <!-- full-width block -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+<footer class="w3-row-padding w3-center w3-theme w3-opacity">
 
     <!-- "back to top" button -->
     <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
@@ -14,10 +14,9 @@
     <i class="fa fa-chevron-circle-up"></i></span></a>
     </div>
 
-    <!-- left 1/4 to 1/3 of the footer will have a list of links -->
-    <div class="">
-        <ul class="">
-
+    <!-- left 1/3 of the footer will have a list of links -->
+    <div class="w3-container w3-third">
+        <ul class="w3-container">
             <li><a class="" href="{{ site.baseurl }}/lessons">Lessons</a></li>
             <li><a class="" href="{{ site.baseurl }}/reactions">Reactions</a></li>
             <li><a class="" href="{{ site.baseurl }}/glossary">Glossary</a></li>
@@ -29,67 +28,70 @@
     </div>
 
     <!-- remaining width of the footer should have copyright and social media stuff -->
+    <div class="w3-container w3-twothird">
 
-    <div id="copyright">
-        &copy; {{ site.time | date: '%Y' }} {{ site.name }}.
-    </div>
+        <div id="copyright" class="w3-container">
+            &copy; {{ site.time | date: '%Y' }} {{ site.author }}.
+        </div>
 
 
-    <div id="socialMedia">
-        {% if site.footer-links.email %}
-            <a href="mailto:{{ site.footer-links.email }}"><i
-            class="fa fa-envelope-square"></i></a>
-        {% endif %}
-        {% if site.footer-links.facebook %}
-        <a href="https://www.facebook.com/{{ site.footer-links.facebook }}"><i
-            class="fa fa-facebook-square"></i></a>
-        {% endif %}
-        {% if site.footer-links.twitter %}
-        <a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i
-                class="fa fa-twitter-square"></i></a>
-        {% endif %}
-        {% if site.footer-links.googleplus %}
-        <a href="https://plus.google.com/{{ site.footer-links.googleplus }}"><i
-                class="fa fa-google-plus-square"></i></a>
-        {% endif %}
-        {% if site.footer-links.github %}
-        <a href="https://github.com/{{ site.footer-links.github }}"><i
-            class="fa fa-github-square"></i></a>
-        {% endif %}
-        {% if site.footer-links.linkedin %}
-        <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i
-            class="fa fa-linkedin-square"></i></a>
-        {% endif %}
-        {% if site.footer-links.instagram %}
-        <a href="https://instagram.com/{{ site.footer-links.instagram }}"><i
-                class="fa fa-instagram"></i></a>
-        {% endif %}
-        {% if site.footer-links.stackoverflow %}
-        <a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}"><i
-            class="fa fa-stack-overflow"></i></a>
-        {% endif %}
-        {% if site.footer-links.youtube %}
-        <a href="https://youtube.com/{{ site.footer-links.youtube }}"><i
-            class="fa fa-youtube"></i></a>
-        {% endif %}
-        {% if site.footer-links.rss %}
-        <a href="{{ site.baseurl }}/feed.xml"><i
-                class="fa fa-rss-square"></i></a>
-        {% endif %}
-    </div>
+        <div id="socialMedia" class="w3-container">
+            {% if site.footer-links.email %}
+                <a href="mailto:{{ site.footer-links.email }}"><i
+                class="fa fa-envelope-square"></i></a>
+            {% endif %}
+            {% if site.footer-links.facebook %}
+            <a href="https://www.facebook.com/{{ site.footer-links.facebook }}"><i
+                class="fa fa-facebook-square"></i></a>
+            {% endif %}
+            {% if site.footer-links.twitter %}
+            <a href="https://www.twitter.com/{{ site.footer-links.twitter }}"><i
+                    class="fa fa-twitter-square"></i></a>
+            {% endif %}
+            {% if site.footer-links.googleplus %}
+            <a href="https://plus.google.com/{{ site.footer-links.googleplus }}"><i
+                    class="fa fa-google-plus-square"></i></a>
+            {% endif %}
+            {% if site.footer-links.github %}
+            <a href="https://github.com/{{ site.footer-links.github }}"><i
+                class="fa fa-github-square"></i></a>
+            {% endif %}
+            {% if site.footer-links.linkedin %}
+            <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}"><i
+                class="fa fa-linkedin-square"></i></a>
+            {% endif %}
+            {% if site.footer-links.instagram %}
+            <a href="https://instagram.com/{{ site.footer-links.instagram }}"><i
+                    class="fa fa-instagram"></i></a>
+            {% endif %}
+            {% if site.footer-links.stackoverflow %}
+            <a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}"><i
+                class="fa fa-stack-overflow"></i></a>
+            {% endif %}
+            {% if site.footer-links.youtube %}
+            <a href="https://youtube.com/{{ site.footer-links.youtube }}"><i
+                class="fa fa-youtube"></i></a>
+            {% endif %}
+            {% if site.footer-links.rss %}
+            <a href="{{ site.baseurl }}/feed.xml"><i
+                    class="fa fa-rss-square"></i></a>
+            {% endif %}
+        </div>
 
-    <div id="poweredBy">
-        <p><i class="fa fa-rocket"></i> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> on
-            <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Theme based on
-            <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">W3.css</a>.</p>
-    </div>
+        <div id="poweredBy" class="w3-container">
+            <p><i class="fa fa-rocket"></i> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> on
+                <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Theme based on
+                <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">W3.css</a>.</p>
+        </div>
 
     {% include analytics.html %}
+
+    </div>
 </footer>
 
 
 <!-- quote of the day (small text at the very bottom of the footer) -->
-<footer class="w3-container w3-black">
+<footer class="w3-container w3-black w3-center">
     <p id="randomQuote"></p>
 </footer>
 
@@ -100,10 +102,48 @@
     // Used to toggle the menu on small screens when clicking on the menu button
     function toggleNavMenu() {
         var x = document.getElementById("navDemo");
+        var y = document.getElementById("navCaret");
         if (x.className.indexOf("w3-show") == -1) {
             x.className += " w3-show";
+            y.className = y.className.replace("fa fa-caret-down","fa fa-caret-up");
         } else {
             x.className = x.className.replace(" w3-show", "");
+            y.className = y.className.replace("fa fa-caret-up", "fa fa-caret-down");
+        }
+    }
+</script>
+
+<script>
+    // Used to toggle the side menu
+    function openSideMenu() {
+        document.getElementById("sideNav").style.display = "block";
+        document.getElementById("overlay").style.display = "block";
+    }
+    function closeSideMenu() {
+        document.getElementById("sideNav").style.display = "none";
+        document.getElementById("overlay").style.display = "none";
+    }
+</script>
+
+<script>
+    // toggle search bar
+    function open_search(elmnt) {
+        var a = document.getElementById("googleSearch");
+        if (a.style.display == "") {
+            a.style.display = "none";
+            a.style.paddingRight = "";
+            elmnt.innerHTML = "<i class='fa fa-search'></i>";
+        } else {
+            a.style.display = "";
+            if (window.innerWidth > 700) {
+                a.style.width = "40%";
+            } else {
+                a.style.width = "80%";
+            }
+            if (document.getElementById("gsc-i-id1")) {
+                document.getElementById("gsc-i-id1").focus();
+            }
+            elmnt.innerHTML = "&times;";
         }
     }
 </script>
@@ -123,5 +163,4 @@
         el.innerHTML = "&ldquo;" + quotes[quoteIndex][0] + "&rdquo; &mdash; <em>" + quotes[quoteIndex][1] + "</em>";
 
     }());
-
 </script>

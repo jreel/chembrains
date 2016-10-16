@@ -2,42 +2,89 @@
 <!-- should be present on all pages on the site -->
 <!-- (included in default.html and landing.html) -->
 
-<!-- navigation links: Home | Lessons | Reactions | Glossary | Blog | About -->
+<!-- navigation links: (≡) ChemBrains.com | Lessons | Reactions | Glossary | Blog | About | (search) -->
 <!-- these are not "popup" menu links; each of these goes to a page containing the sub-links -->
-<!-- on small screens, this gets compressed to the "hamburger" icon -->
+<!-- on small screens, this gets compressed to a "caret" icon -->
 
-<!-- Navbar -->
+
+<!-- search bar (hidden until toggled) -->
+<div style="display:none;position:absolute;z-index:4;right:52px;height:44px;background-color:w3-theme;" id="googleSearch">
+    <div class="gcse-search">
+        <gcse:searchbox-only></gcse:searchbox-only>
+    </div>
+</div>
+
+
+<!-- Top Navbar -->
 <div class="w3-top" id="topNav">
-    <ul class="w3-navbar w3-theme w3-card-2 w3-left-align w3-large">
-        <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-            <a class="w3-padding-large w3-hover-white w3-large w3-theme" href="javascript:void(0);"
-               onclick="toggleNavMenu()"
-               title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        </li>
-        <li><a href="{{ site.baseurl }}/" class="w3-padding-large w3-white">{{ site.name }}</a></li>
 
-        <li class="w3-hide-small"><a href="{{ site.baseurl }}/lessons" class="w3-padding-large w3-hover-white">Lessons</a>
-        </li>
-        <li class="w3-hide-small"><a href="{{ site.baseurl }}/reactions" class="w3-padding-large w3-hover-white">Reactions</a>
-        </li>
-        <li class="w3-hide-small"><a href="{{ site.baseurl }}/glossary" class="w3-padding-large w3-hover-white">Glossary</a>
+    <ul class="w3-navbar w3-large w3-theme w3-left-align">
+
+        <!-- search icon to toggle search bar (right-aligned) -->
+        <li class="w3-right">
+            <a href="javascript:void(0);" onclick="open_search(this)"
+               title="Search ChemBrains"><i class="fa fa-search"></i></a>
         </li>
 
-        <li class="w3-hide-small"><a href="{{ site.baseurl }}/blog" class="w3-padding-large w3-hover-white">Blog</a></li>
-        <li class="w3-hide-small"><a href="{{ site.baseurl }}/about" class="w3-padding-large w3-hover-white">About</a></li>
+        <!-- button to toggle side nav menu (all screens) -->
+        <li class="w3-opennav w3-theme">
+            <a href="javascript:void(0);" onclick="toggleSideMenu()"
+               title="Toggle Side Menu"><i class="fa fa-bars"></i></a>
+        </li>
+
+        <!-- site logo -->
+        <li><a href="{{ site.baseurl }}/" class="">{{ site.logo }}{{ site.name }}</a></li>
+
+        <!-- button to toggle nav menu on small screens -->
+        <li class="w3-opennav w3-hide-medium w3-hide-large w3-theme">
+            <a href="javascript:void(0);" onclick="toggleNavMenu()"
+               title="Toggle Navigation Menu"><i id="navCaret" class="fa fa-caret-down w3-large"></i></a>
+        </li>
+
+        <!-- other links that we want visible on med/large screens -->
+        <li class="w3-hide-small"><a href="{{ site.baseurl }}/lessons" class="">Lessons</a>
+        </li>
+
+        <li class="w3-hide-small"><a href="{{ site.baseurl }}/reactions" class="">Reactions</a>
+        </li>
+        <li class="w3-hide-small"><a href="{{ site.baseurl }}/glossary" class="">Glossary</a>
+        </li>
+
+        <li class="w3-hide-small"><a href="{{ site.baseurl }}/blog" class="">Blog</a></li>
+
+        <li class="w3-hide-small"><a href="{{ site.baseurl }}/about" class="">About</a></li>
+
 
     </ul>
 
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+
+
+    <!-- nav menu on small screens -->
+    <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-theme">
+        <span onclick="toggleNavMenu()" class="w3-closebtn w3-large" title="Close Menu">&times;</span>
         <ul class="w3-navbar w3-left-align w3-large w3-theme">
 
-            <li><a class="w3-padding-large" href="{{ site.baseurl }}/lessons">Lessons</a></li>
-            <li><a class="w3-padding-large" href="{{ site.baseurl }}/reactions">Reactions</a></li>
-            <li><a class="w3-padding-large" href="{{ site.baseurl }}/glossary">Glossary</a></li>
-            <li><a class="w3-padding-large" href="{{ site.baseurl }}/blog">Blog</a></li>
-            <li><a class="w3-padding-large" href="{{ site.baseurl }}/about">About</a></li>
+            <li><a class="" href="{{ site.baseurl }}/lessons">Lessons</a></li>
+            <li><a class="" href="{{ site.baseurl }}/reactions">Reactions</a></li>
+            <li><a class="" href="{{ site.baseurl }}/glossary">Glossary</a></li>
+            <li><a class="" href="{{ site.baseurl }}/blog">Blog</a></li>
+            <li><a class="" href="{{ site.baseurl }}/about">About</a></li>
 
         </ul>
     </div>
+
 </div>
+
+
+<!-- side nav menu -->
+<nav class="w3-sidenav w3-white w3-animate-left" style="display:none;z-index:5" id="sideNav">
+    <a href="javascript:void(0)" onclick="closeSideMenu()"
+       class="w3-closenav w3-large w3-right">&times;</a>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+    <a href="#">Link 5</a>
+</nav>
+
+<div class="w3-overlay w3-animate-opacity" onclick="closeSideMenu()" style="cursor:pointer" id="overlay"></div>
