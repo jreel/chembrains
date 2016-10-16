@@ -7,13 +7,6 @@
 <!-- full-width block -->
 <footer class="w3-row w3-center w3-theme w3-opacity">
 
-    <!-- "back to top" button -->
-    <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
-        <span class="w3-text w3-theme-light w3-padding">Back To Top</span>
-        <a class="w3-text-white" href="#topNav"><span class="w3-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
-    </div>
-
     <!-- two left columns of the footer will have a list of links -->
     <div class="w3-container w3-col m3 s6">
         <ul class="w3-container w3-left-align">
@@ -33,13 +26,11 @@
 
     <!-- remaining width of the footer should have copyright and social media stuff -->
     <div class="w3-container w3-col m6 s12 w3-right-align">
-
         <div id="copyright" class="w3-container">
             &copy; {{ site.time | date: '%Y' }} {{ site.author }}.
         </div>
 
-
-        <div id="socialMedia" class="w3-container w3-large">
+        <div id="socialMedia" class="w3-container w3-xlarge">
             {% if site.footer-links.email %}
                 <a href="mailto:{{ site.footer-links.email }}"><i
                 class="fa fa-envelope-square"></i></a>
@@ -89,6 +80,13 @@
 
     {% include analytics.html %}
 
+    </div>
+
+    <!-- "back to top" button -->
+    <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+        <span class="w3-text w3-theme-light w3-padding">Back To Top</span>
+        <a class="w3-text-white" href="#topNav"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
     </div>
 </footer>
 
