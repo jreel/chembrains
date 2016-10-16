@@ -61,9 +61,8 @@
                     return 0.5 - Math.random();
                 });
         var quoteIndex = Math.floor(Math.random() * quotes.length);
-        var quoteHTML = "&ldquo;" + quotes[quoteIndex][0] + "&rdquo; &mdash; <em>" + quotes[quoteIndex][1] + "</em>";
 
-        el.innerHTML = quotesHTML;
+        el.innerHTML = "&ldquo;" + quotes[quoteIndex][0] + "&rdquo; &mdash; <em>" + quotes[quoteIndex][1] + "</em>";
 
     }());
 
