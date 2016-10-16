@@ -57,10 +57,6 @@
 
         var el = document.getElementById("randomQuote");
 
-        var quotes = quoteList.sort(function () {
-            return 0.5 - Math.random();
-        })
-
         function rand(xs) {
             return xs.slice(0).sort(function(){
                 return 0.5 - Math.random();
@@ -71,7 +67,7 @@
             return "&ldquo;" + q[0] + "&rdquo; &mdash; <em>" + q[1] + "</em>";
         }
 
-        el.innerHTML = rand(quotes).map(quote).join('');
+        el.innerHTML = rand(quoteList).map(quote).join('');
 
 
     }());
