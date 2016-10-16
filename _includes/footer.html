@@ -39,7 +39,7 @@
         </div>
 
 
-        <div id="socialMedia" class="w3-container">
+        <div id="socialMedia" class="w3-container w3-large">
             {% if site.footer-links.email %}
                 <a href="mailto:{{ site.footer-links.email }}"><i
                 class="fa fa-envelope-square"></i></a>
@@ -83,9 +83,8 @@
         </div>
 
         <div id="poweredBy" class="w3-container">
-            <p><i class="fa fa-rocket"></i> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> on
-                <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Theme based on
-                <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">W3.css</a>.</p>
+            <p><i class="fa fa-rocket"></i> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+            <p>Theme based on <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">W3.css</a>.</p>
         </div>
 
     {% include analytics.html %}
@@ -164,7 +163,7 @@
                 });
         var quoteIndex = Math.floor(Math.random() * quotes.length);
 
-        el.innerHTML = "&ldquo;" + quotes[quoteIndex][0] + "&rdquo; &mdash; <em>" + quotes[quoteIndex][1] + "</em>";
+        el.innerHTML = "&ldquo;" + quotes[quoteIndex][0] + "&rdquo;<br>&mdash; <em>" + quotes[quoteIndex][1] + "</em>";
 
     }());
 </script>
