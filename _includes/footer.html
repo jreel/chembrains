@@ -1,0 +1,51 @@
+<!-- in the footer, have small text links (in case they were missed the first time around) -->
+<!-- also social media and contact info -->
+<!-- should be present on all pages on the site -->
+<!-- (included in default.html and landing.html) -->
+
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+
+    <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+        <span class="w3-text w3-theme-light w3-padding">Back To Top</span>
+        <a class="w3-text-white" href="#topNav"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+    </div>
+
+    <div class="w3-xlarge w3-padding-32">
+        <a href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
+        <a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
+        <a href="#" class="w3-hover-text-light-blue"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="w3-hover-text-grey"><i class="fa fa-flickr"></i></a>
+        <a href="#" class="w3-hover-text-indigo"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+
+    <!-- quote of the day (small text at the very bottom of the footer) -->
+    <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+        <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+    </div>
+
+    <div class="wrapper-footer">
+        <div class="container">
+            <footer class="footer">
+                {% include svg-icons.html %}
+            </footer>
+        </div>
+    </div>
+
+    {% include analytics.html %}
+</footer>
+
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleNavMenu() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>

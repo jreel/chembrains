@@ -6,6 +6,16 @@
 
 <body>
 
+<!-- top navbar -->
+{% include navbar.html %}
+
+
+<!-- after the navbar comes the content -->
+<!-- ideally, have branding at the top on large screens, but hide it on small screens -->
+
+
+
+
   <div class="wrapper-masthead">
     <div class="container">
       <header class="masthead clearfix">
@@ -28,16 +38,15 @@
     {{ content }}
   </div>
 
-  <div class="wrapper-footer">
-    <div class="container">
-      <footer class="footer">
-        {% include svg-icons.html %}
-      </footer>
-    </div>
-  </div>
 
-  {% include analytics.html %}
 
+
+
+
+
+
+<!-- Footer -->
+{% include footer.html %}
 
 </body>
 </html>
