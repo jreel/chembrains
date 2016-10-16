@@ -2,19 +2,16 @@
 title: ChemBrains
 timezone: America/New_York
 
-name: ChemBrains
+name: ChemBrains.com
 description: "created by chemistry students, for chemistry students"
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
-  dribbble: 
-  email: 
+  email:
   facebook: 
-  flickr: 
   github: jreel
   instagram: 
   linkedin: 
-  pinterest: 
-  rss: 
+  rss:
   twitter: 
   stackoverflow: 
   youtube: 
