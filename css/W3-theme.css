@@ -1,0 +1,115 @@
+.w3-theme-l5 {
+    color: #000 !important;
+    background-color: #ecf1fe !important
+}
+
+.w3-theme-l4 {
+    color: #000 !important;
+    background-color: #bed1fc !important
+}
+
+.w3-theme-l3 {
+    color: #fff !important;
+    background-color: #7ea3fa !important
+}
+
+.w3-theme-l2 {
+    color: #fff !important;
+    background-color: #3d75f7 !important
+}
+
+.w3-theme-l1 {
+    color: #fff !important;
+    background-color: #0a4ce7 !important
+}
+
+.w3-theme-d1 {
+    color: #fff !important;
+    background-color: #063196 !important
+}
+
+.w3-theme-d2 {
+    color: #fff !important;
+    background-color: #062c85 !important
+}
+
+.w3-theme-d3 {
+    color: #fff !important;
+    background-color: #052675 !important
+}
+
+.w3-theme-d4 {
+    color: #fff !important;
+    background-color: #042164 !important
+}
+
+.w3-theme-d5 {
+    color: #fff !important;
+    background-color: #031b53 !important
+}
+
+.w3-theme-light {
+    color: #000 !important;
+    background-color: #ecf1fe !important
+}
+
+.w3-theme-dark {
+    color: #fff !important;
+    background-color: #031b53 !important
+}
+
+.w3-theme-action {
+    color: #fff !important;
+    background-color: #031b53 !important
+}
+
+.w3-theme {
+    color: #fff !important;
+    background-color: #0736a4 !important
+}
+
+.w3-text-theme {
+    color: #0736a4 !important
+}
+
+.w3-border-theme {
+    border-color: #0736a4 !important
+}
+
+.w3-hover-theme:hover {
+    color: #fff !important;
+    background-color: #0736a4 !important
+}
+
+.w3-hover-text-theme {
+    color: #0736a4 !important
+}
+
+.w3-hover-border-theme:hover {
+    border-color: #0736a4 !important
+}
+
+.w3-theme-gradient {
+    color: #000 !important;
+    background: -webkit-linear-gradient(top, #3d75f7 25%, #0a4ce7 75%)
+}
+
+.w3-theme-gradient {
+    color: #000 !important;
+    background: -moz-linear-gradient(top, #3d75f7 25%, #0a4ce7 75%)
+}
+
+.w3-theme-gradient {
+    color: #000 !important;
+    background: -o-linear-gradient(top, #3d75f7 25%, #0a4ce7 75%)
+}
+
+.w3-theme-gradient {
+    color: #000 !important;
+    background: -ms-linear-gradient(top, #3d75f7 25%, #0a4ce7 75%)
+}
+
+.w3-theme-gradient {
+    color: #000 !important;
+    background: linear-gradient(top, #3d75f7 25%, #0a4ce7 75%)
+}
