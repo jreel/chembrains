@@ -7,16 +7,16 @@ author: ChemBrains.com
 description: "created by chemistry students, for chemistry students"
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
-  email:
-  facebook: 
+  email: chembrains@outlook.com
+  facebook: chembrains
   github: jreel
   instagram: 
-  linkedin: 
-  rss:
-  twitter: 
+  linkedin: chembrains
+  rss: /atom.xml
+  twitter: chembrains
   stackoverflow: 
-  youtube: 
-  googleplus: 
+  youtube: chembrains
+  googleplus: chembrains
 disqus: 
 google_analytics: 
 url: http://jreel.github.io/chembrains
