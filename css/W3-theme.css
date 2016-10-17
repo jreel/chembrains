@@ -106,3 +106,10 @@ html, body {
     color: #cedcfa;
     opacity: 1 !important
 }
+
+.landing-header {
+    background-image: url('{{ site.baseurl }}/images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 20% 0%;
+}
