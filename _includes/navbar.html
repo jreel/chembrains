@@ -9,12 +9,29 @@
 
 <!-- search bar (hidden until toggled) -->
 <div style="display:none;position:absolute;z-index:4;right:52px;height:44px;background-color:w3-theme;" id="googleSearch">
-    <gcse:searchbox-only></gcse:searchbox-only>
+    <!--
+    <form action="" method="POST">
+        <input type="search" class="w3-input w3-border" name="q" placeholder="Google... "><button type="submit" class="w3-btn w3-ripple w3-border w3-round-large"> Search</button>
+    </form>
+    //-->
+
+    <script>
+        (function () {
+            var cx = '003531601122286111654:ge7hivw1ejw';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
+    <gcse:search></gcse:search>
 </div>
 
 
 <!-- Top Navbar -->
-<div class="w3-top" id="topNav">
+<nav class="w3-top" id="topNav">
 
     <ul class="w3-navbar w3-large w3-theme w3-left-align w3-row">
 
@@ -37,48 +54,48 @@
 
 
         <!-- other links that we want visible on med/large screens -->
-        <li class="w3-hide-small w3-opennav w3-theme"><a href="{{ site.baseurl }}/lessons" class="">Lessons</a>
+        <li class="w3-hide-small w3-opennav w3-theme w3-col s1"><a href="{{ site.baseurl }}/lessons" class="">Lessons</a>
         </li>
 
-        <li class="w3-hide-small w3-opennav w3-theme"><a href="{{ site.baseurl }}/reactions" class="">Reactions</a>
+        <li class="w3-hide-small w3-opennav w3-theme w3-col s1"><a href="{{ site.baseurl }}/reactions" class="">Reactions</a>
         </li>
-        <li class="w3-hide-small w3-opennav w3-theme"><a href="{{ site.baseurl }}/glossary" class="">Glossary</a>
+        <li class="w3-hide-small w3-opennav w3-theme w3-col s1"><a href="{{ site.baseurl }}/glossary" class="">Glossary</a>
         </li>
 
-        <li class="w3-hide-small w3-opennav w3-theme"><a href="{{ site.baseurl }}/blog" class="">Blog</a></li>
+        <li class="w3-hide-small w3-opennav w3-theme w3-col s1"><a href="{{ site.baseurl }}/blog" class="">Blog</a></li>
 
-        <li class="w3-hide-small w3-opennav w3-theme"><a href="{{ site.baseurl }}/about" class="">About</a></li>
+        <li class="w3-hide-small w3-opennav w3-theme w3-col s1"><a href="{{ site.baseurl }}/about" class="">About</a></li>
 
         <!-- button to toggle nav menu on small screens -->
-        <li class="w3-opennav w3-hide-medium w3-hide-large w3-theme w3-col rest">
+        <li class="w3-dropdown-click w3-hide-medium w3-hide-large w3-theme w3-col s1">
             <a href="javascript:void(0);" onclick="toggleNavMenu()"
                title="Toggle Navigation Menu"><i id="navCaret" class="fa fa-caret-down w3-large"></i></a>
         </li>
 
     </ul>
 
+</nav>
 
-
-    <!-- nav menu on small screens -->
-    <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-theme">
-        <span onclick="toggleNavMenu()" class="w3-closebtn w3-xlarge w3-right" title="Close Menu">&times;</span>
-
-        <ul class="w3-navbar w3-left-align w3-large w3-theme">
-            <li><a class="" href="{{ site.baseurl }}/lessons">Lessons</a></li>
-            <li><a class="" href="{{ site.baseurl }}/reactions">Reactions</a></li>
-            <li><a class="" href="{{ site.baseurl }}/glossary">Glossary</a></li>
-            <li><a class="" href="{{ site.baseurl }}/blog">Blog</a></li>
-            <li><a class="" href="{{ site.baseurl }}/about">About</a></li>
-        </ul>
+<!-- nav menu on small screens -->
+<nav id="dropNav" class="w3-hide w3-hide-large w3-hide-medium w3-theme w3-dropnav">
+    <div class="w3-container">
+        <span onclick="toggleNavMenu()" class="w3-closebtn w3-xlarge" title="Close Menu">&times;</span>
     </div>
-
-</div>
+    <ul class="w3-navbar w3-left-align w3-large w3-theme">
+        <li><a class="" href="{{ site.baseurl }}/lessons">Lessons</a></li>
+        <li><a class="" href="{{ site.baseurl }}/reactions">Reactions</a></li>
+        <li><a class="" href="{{ site.baseurl }}/glossary">Glossary</a></li>
+        <li><a class="" href="{{ site.baseurl }}/blog">Blog</a></li>
+        <li><a class="" href="{{ site.baseurl }}/about">About</a></li>
+    </ul>
+</nav>
 
 
 <!-- side nav menu -->
 <nav class="w3-sidenav w3-white w3-animate-left" style="display:none;z-index:5" id="sideNav">
-    <a href="javascript:void(0)" onclick="closeSideMenu()"
-       class="w3-closenav w3-large w3-right">&times;</a>
+    <div class="w3-container">
+        <span onclick="closeSideMenu()" class="w3-closebtn w3-xlarge" title="Close Menu">&times;</span>
+    </div>
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
     <a href="#">Link 3</a>
