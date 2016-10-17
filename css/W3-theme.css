@@ -88,3 +88,7 @@
 .w3-hover-border-theme:hover {
     border-color: #1652d8 !important
 }
+
+html, body {
+    background-color: #000000 !important
+}
