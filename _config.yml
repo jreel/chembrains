@@ -5,7 +5,7 @@ timezone: America/New_York
 name: ChemBrains
 author: ChemBrains.com
 description: "created by chemistry students, for chemistry students"
-avatar: /images/logo.png
+logo: http://jreel.github.io/chembrains/images/logo.png
 footer-links:
   email: chembrains@outlook.com
   facebook: chembrains
