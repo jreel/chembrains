@@ -114,4 +114,6 @@ html, body {
     background-position: 20% 0%;
 }
 
-
+#q {
+    background: #FFFFFF url(https://www.google.com/cse/static/en/google_custom_search_watermark.gif) left no-repeat
+}

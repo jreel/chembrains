@@ -67,5 +67,25 @@
     <!-- JS -->
     <script src="{{ site.baseurl }}/js/quotes.js"></script>
 
+    <!-- retain branding for google search box -->
+    <script>
+        (function () {
+            var q = document.getElementById('q');
+            var b = function () {
+                    if (q.value == '') {
+                        q.style.background = '#ffffff url(https:\x2F\x2Fwww.google.com\x2Fcse\x2Fstatic\x2Fen\x2Fgoogle_custom_search_watermark.gif) left no-repeat';
+                    }
+                };
+
+                var f = function () {
+                    q.style.background = '#ffffff';
+                };
+
+                q.onfocus = f;
+                q.onblur = b;
+
+            }
+        })();
+    </script>
 
 </head>
