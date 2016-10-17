@@ -94,21 +94,21 @@ html, body {
 }
 
 .logo-chem {
-    font-family: Anton, sans-serif;
-    font-weight: bold;
+    font-family: Dosis, sans-serif;
+    font-weight: 800;
     color: #3a72ec;
     opacity: 1 !important
 }
 
 .logo-brains {
-    font-family: Anton, sans-serif;
-    font-weight: normal;
+    font-family: Dosis, sans-serif;
+    font-weight: 600;
     color: #cedcfa;
     opacity: 1 !important
 }
 
 .landing-header {
-    background-image: url('{{ site.baseurl }}/images/logo.png');
+    background-image: url('http://jreel.github.io/chembrains/images/logo.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 20% 0%;
