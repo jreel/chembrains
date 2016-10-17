@@ -114,6 +114,42 @@ html, body {
     background-position: 20% 0%;
 }
 
-#q {
-    background: #FFFFFF url(https://www.google.com/cse/static/en/google_custom_search_watermark.gif) left no-repeat
+#googleSearch {
+    color: #000000;
+}
+
+#googleSearch a {
+    padding: 0 !important;
+}
+
+.searchdiv {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+    font-size: 16px
+}
+
+div.cse .gsc-control-cse, div.gsc-control-cse {
+    background-color: transparent;
+    border: none;
+    padding: 6px;
+    margin: 0px
+}
+
+td.gsc-search-button input.gsc-search-button {
+    background-color: #4CAF50;
+    border-color: #4CAF50
+}
+
+td.gsc-search-button input.gsc-search-button:hover {
+    background-color: #46a049;
+}
+
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button {
+    box-sizing: content-box;
+    line-height: normal;
+}
+
+.gsc-tabsArea div {
+    overflow: visible;
 }
