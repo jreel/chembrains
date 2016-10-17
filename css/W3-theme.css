@@ -96,9 +96,11 @@ html, body {
 .logo-chem {
     font-family: Anton, sans-serif;
     font-weight: bold;
+    color: #3a72ec;
 }
 
 .logo-brains {
     font-family: Anton, sans-serif;
     font-weight: normal;
+    color: #cedcfa;
 }
