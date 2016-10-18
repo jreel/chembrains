@@ -160,7 +160,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     vertical-align: middle;
 }
 
-.flexrow div {
+.flexrow div, .flexrow div div {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
