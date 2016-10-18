@@ -167,9 +167,3 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     vertical-align: top;
 }
 
-.w3-container {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    vertical-align: top;
-}
