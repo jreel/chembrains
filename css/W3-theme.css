@@ -173,7 +173,9 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 .white {
     color: #ffffff;
 }
-
+.palegray {
+    color: #dfdfdf;
+}
 .palestaqua {
     color: #d6fdff;
 }
