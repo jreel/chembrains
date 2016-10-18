@@ -165,3 +165,25 @@
 
     }());
 </script>
+
+<script>
+    // google search
+    (function () {
+        var cx = '003531601122286111654:ge7hivw1ejw';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                '//www.google.com/cse/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+    })();
+
+    function searchfield_focus(obj) {
+        obj.style.color = "";
+        obj.style.fontStyle = "";
+        if (obj.value == "Search ChemBrains.com") {
+            obj.value = "";
+        }
+    }
+</script>
