@@ -90,13 +90,13 @@
 }
 
 html, body {
-    background-color: #004e9c !important
+    background-color: #0c1c47 !important
 }
 
 .logo-chem {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    color: #389dff;
+    color: #a1f0ff;
     opacity: 1 !important
 }
 
@@ -167,3 +167,58 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     vertical-align: top;
 }
 
+.black {
+    color: #000000;
+}
+.white {
+    color: #ffffff;
+}
+
+.palestaqua {
+    color: #d6fdff;
+}
+.paleaqua {
+    color: #c1f8ff;
+}
+.aqua {
+    color: #a1f0ff;
+}
+.brightblue {
+    color: #389dff;
+}
+.darkblue {
+    color: #184198;
+}
+.darkestblue {
+    color: #0c1c47;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-palestaqua {
+    background-color: #d6fdff;
+}
+
+.bg-paleaqua {
+    background-color: #c1f8ff;
+}
+.bg-aqua {
+    background-color: #a1f0ff;
+}
+.bg-brightblue {
+    background-color: #389dff;
+}
+
+.bg-darkblue {
+    background-color: #184198;
+}
+
+.bg-darkestblue {
+    background-color: #0c1c47;
+}
