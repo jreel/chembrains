@@ -153,3 +153,23 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 .gsc-tabsArea div {
     overflow: visible;
 }
+
+.w3-row, .w3-row-padding {
+    display: -webkit-flex;
+    display: flex;
+    vertical-align: middle;
+}
+
+.w3-row > div, .w3-row-padding > div {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    vertical-align: top;
+}
+
+.w3-container {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    vertical-align: top;
+}
