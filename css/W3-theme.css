@@ -154,13 +154,13 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     overflow: visible;
 }
 
-.w3-row, .w3-row-padding {
+.flexrow {
     display: -webkit-flex;
     display: flex;
     vertical-align: middle;
 }
 
-.w3-row > div, .w3-row-padding > div {
+.flexrow div {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
