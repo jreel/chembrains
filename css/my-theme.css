@@ -188,7 +188,8 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 }
 
 .central-column {
-    width: 100vw;
+    width: 90vw;
+    margin: auto;
 }
 
 @media (min-width: 993px) {
