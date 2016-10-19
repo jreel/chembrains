@@ -143,7 +143,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 }
 @media (min-width: 601px) {     /* medium (tablet) screens */
     .card-icon {
-        font-size: 25% !important;
+        font-size: 25vw !important;
     }
 }
 
@@ -162,7 +162,12 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 
 #footerLinks, #footerLinks ul, #footerMeta {  /* small/non-screens default */
     text-align: center !important;
+    margin: auto;
+}
+
+#footerLinks ul {
     float: none !important;
+    display: inline-block;
 }
 
 @media only screen and (min-width: 933px) {
