@@ -139,6 +139,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     font-size: 64px !important;     /* smallest value */
     display: block;
     margin: 1rem;
+    margin-right: 2em;
 }
 @media (min-width: 601px) {     /* medium (tablet) screens */
     .card-icon {
@@ -159,13 +160,17 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     padding-bottom: 1% !important;
 }
 
-#footerLinks, #footerLinks ul, #footerMeta {
-    text-align: center;
+#footerLinks, #footerLinks ul, #footerMeta {  /* small/non-screens default */
+    text-align: center !important;
+    float: none !important;
 }
 
 @media only screen and (min-width: 933px) {
     #footerLinks, #footerLinks ul {
         text-align: left !important;
+    }
+    #footerLinks ul {
+        float: left !important;
     }
     #footerMeta {
         text-align: right !important;
