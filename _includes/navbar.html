@@ -14,57 +14,49 @@
 
 
 <!-- Top Navbar -->
-<nav class="w3-card-2 topnav bg-brightblue" id="topNav">
+<ul class="w3-navbar w3-large w3-card-2 w3-left-align w3-top topnav bg-brightblue white" id="topNav">
 
-    <ul class="w3-navbar w3-large bg-brightblue white">
+    <!-- button to toggle nav menu (med/small screens) -->
+    <li class="w3-hide-large w3-opennav w3-right">
+        <a href="javascript:void(0);" onclick="toggleNavMenu()" title="Menu"><i
+                class="fa fa-bars"></i></a></li>
 
-        <!-- site logo & name, visible on all screen sizes -->
-        <li class="w3-left"><a href="{{ site.baseurl }}/" title="{{ site.name }}">
-            <img src="{{ site.baseurl }}/favicon-32x32.png" alt="ChemBrains Logo" class=""><span class="logo-chem w3-text-shadow">Chem</span><span class="logo-brains w3-text-shadow">Brains</span></a>
-        </li>
-
-        <!-- button to toggle nav menu (med/small screens) -->
-        <li class="w3-hide-large w3-right">
-            <a class="topnav-icons" href="javascript:void(0);" onclick="toggleNavMenu()" title="Menu"><i class="fa fa-bars"></i></a>
-        </li>
+    <!-- site logo & name, visible on all screen sizes -->
+    <li class="logo-nowrap"><a href="{{ site.baseurl }}/" title="{{ site.name }}">
+        <img src="{{ site.baseurl }}/favicon-32x32.png" alt="ChemBrains Logo" class=""><span class="logo-chem w3-text-shadow">Chem</span><span class="logo-brains w3-text-shadow">Brains</span></a></li>
 
 
+    <!-- links that we want visible on large screens -->
+    <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/lessons">Lessons</a></li>
+
+    <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/reactions">Reactions</a></li>
+
+    <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/glossary">Glossary</a></li>
+
+    <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/blog">Blog</a></li>
+
+    <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/about">About</a></li>
+
+    <!-- search icon to toggle search bar (right-aligned) -->
+    <li class="w3-hide-small w3-hide-medium w3-right">
+        <a href="javascript:void(0);" onclick="open_search(this)" title="Search ChemBrains" class="topnav-icons"><i class="fa fa-search"></i></a>
+    </li>
+
+</ul>
 
 
-        <!-- links that we want visible on large screens -->
-        <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/lessons">Lessons</a></li>
-
-        <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/reactions">Reactions</a></li>
-
-        <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/glossary">Glossary</a></li>
-
-        <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/blog">Blog</a></li>
-
-        <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/about">About</a></li>
-
-        <!-- search icon to toggle search bar (right-aligned) -->
-        <li class="w3-hide-small w3-hide-medium w3-right">
-            <a href="javascript:void(0);" onclick="open_search(this)" title="Search ChemBrains" class="topnav-icons"><i class="fa fa-search"></i></a>
-        </li>
-
+<!-- nav menu on small screens -->
+<nav id="dropNav" class="w3-hide w3-hide-large bg-brightblue white w3-dropnav">
+    <ul class="w3-navbar w3-left-align w3-large bg-brightblue white">
+        <li class=""><i class="fa fa-search"></i>
+            <div class="gcse-search"></div></li>
+        <li class=""><a href="{{ site.baseurl }}/lessons">Lessons</a></li>
+        <li class=""><a href="{{ site.baseurl }}/reactions">Reactions</a></li>
+        <li class=""><a href="{{ site.baseurl }}/glossary">Glossary</a></li>
+        <li class=""><a href="{{ site.baseurl }}/blog">Blog</a></li>
+        <li class=""><a href="{{ site.baseurl }}/about">About</a></li>
     </ul>
-
-
-    <!-- nav menu on small screens -->
-    <nav id="dropNav" class="w3-hide w3-hide-large bg-brightblue white w3-dropnav">
-        <div class="w3-container w3-right">
-            <span onclick="toggleNavMenu()" class="w3-closebtn w3-xlarge" title="Close Menu">&times;</span>
-        </div>
-        <ul class="w3-container w3-dropnav w3-large bg-brightblue white">
-            <li class=""><i class="fa fa-search"></i>
-                <div class="gcse-search"></div></li>
-            <li class=""><a href="{{ site.baseurl }}/lessons">Lessons</a></li>
-            <li class=""><a href="{{ site.baseurl }}/reactions">Reactions</a></li>
-            <li class=""><a href="{{ site.baseurl }}/glossary">Glossary</a></li>
-            <li class=""><a href="{{ site.baseurl }}/blog">Blog</a></li>
-            <li class=""><a href="{{ site.baseurl }}/about">About</a></li>
-        </ul>
-    </nav>
-
 </nav>
+
+
 

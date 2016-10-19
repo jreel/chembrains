@@ -96,15 +96,19 @@ html, body {
 .logo-chem {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
+    font-size: 1.1rem;
     color: #a1f0ff;
-    opacity: 1 !important
 }
 
 .logo-brains {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
+    font-size: 1.1rem;
     color: #ffffff;
-    opacity: 1 !important
+}
+
+.logo-nowrap {
+    white-space: nowrap;
 }
 
 #topNav, #topNav ul {
