@@ -124,8 +124,7 @@ html, body {
 
 #headerSiteName {
     width: 50%;
-    min-width: 75vw;
-    max-width: 90vw;
+    max-width: 85vw;
 }
 
 #googleSearch {
