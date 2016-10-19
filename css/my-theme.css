@@ -29,7 +29,7 @@ body {
 }
 
 .logo-nowrap img {
-    display: inline;
+    display: inline-block;
     width: 32px;
     height: 32px;
     margin-right: 5px;
@@ -38,10 +38,16 @@ body {
 
 .logo-nowrap .logo-chem {
     font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+
 }
 
 .logo-nowrap .logo-brains {
     font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+
 }
 
 #topNav {
@@ -131,6 +137,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 
 .card-icon {
     font-size: 100px !important;
+    font-size: calc(40px + (100 - 40) * ((100vw - 400px) / (800 - 400))) !important;
     display: block;
     margin-left: 1rem;
     margin-right: 2rem;
