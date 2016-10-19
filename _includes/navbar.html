@@ -24,7 +24,9 @@
         </li>
 
         <!-- site name, visible on all screen sizes -->
-        <li class="w3-left"><a href="{{ site.baseurl }}/" title="Home">{{ site.name }}</a></li>
+        <li class="w3-left"><a href="{{ site.baseurl }}/" title="Home"><span
+                class="logo-chem w3-text-shadow">Chem</span><span class="logo-brains w3-text-shadow">Brains</span></a></li>
+
 
         <!-- links that we want visible on large screens -->
         <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/lessons">Lessons</a></li>
@@ -50,7 +52,7 @@
         <div class="w3-container w3-right">
             <span onclick="toggleNavMenu()" class="w3-closebtn w3-xlarge" title="Close Menu">&times;</span>
         </div>
-        <ul class="w3-large bg-brightblue white">
+        <ul class="w3-container w3-dropnav w3-large bg-brightblue white">
             <li class=""><a href="{{ site.baseurl }}/lessons">Lessons</a></li>
             <li class=""><a href="{{ site.baseurl }}/reactions">Reactions</a></li>
             <li class=""><a href="{{ site.baseurl }}/glossary">Glossary</a></li>
