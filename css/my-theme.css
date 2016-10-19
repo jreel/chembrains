@@ -136,13 +136,13 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 }
 
 .card-icon {
-    font-size: 50px !important;     /* smallest value */
+    font-size: 64px !important;     /* smallest value */
     display: block;
     margin: 1rem;
 }
 @media (min-width: 601px) {     /* medium (tablet) screens */
     .card-icon {
-        font-size: 8vw !important;
+        font-size: 25% !important;
     }
 }
 
@@ -163,7 +163,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     text-align: center;
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 933px) {
     #footerLinks, #footerLinks ul {
         text-align: left !important;
     }
