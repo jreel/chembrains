@@ -34,9 +34,8 @@ html, body {
     font-size: 30px;
 }
 
-#topNav, #topNav ul {
-    width: 100%;
-    width: 100vw;
+#topNav {
+    height: 40px;
 }
 
 #landingHeader {
@@ -118,6 +117,13 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 
 .clearfix {
     overflow: auto;
+}
+
+.card-icon {
+    font-size:100px;
+    display:block;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .black {
