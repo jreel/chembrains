@@ -136,10 +136,9 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 }
 
 .card-icon {
-    font-size: 12vw !important;     /* smallest value */
+    font-size: 50px !important;     /* smallest value */
     display: block;
-    margin-left: 1rem;
-    margin-right: 2rem;
+    margin: 1rem;
 }
 @media (min-width: 601px) {     /* medium (tablet) screens */
     .card-icon {
@@ -160,12 +159,12 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     padding-bottom: 1% !important;
 }
 
-#footerLinks, #footerMeta {
+#footerLinks, #footerLinks ul, #footerMeta {
     text-align: center;
 }
 
 @media only screen and (min-width: 601px) {
-    #footerLinks {
+    #footerLinks, #footerLinks ul {
         text-align: left !important;
     }
     #footerMeta {
