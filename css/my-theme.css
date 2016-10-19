@@ -206,7 +206,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: left;
-        background-size: contain;
+        background-size: auto 100%;
     }
 }
 
