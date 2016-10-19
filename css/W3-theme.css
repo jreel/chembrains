@@ -124,12 +124,14 @@ html, body {
 #headerLogo img {
     display: block;
     float: right;
+    height: 146px;
     max-height: 146px;
 }
 
 #headerSiteName {
     width: 50%;
     max-width: 85vw;
+    margin-bottom: -1rem;
 }
 
 #googleSearch {

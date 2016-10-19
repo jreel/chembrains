@@ -2,9 +2,9 @@
 <!-- should be present on all pages on the site -->
 <!-- (included in default.html and landing.html) -->
 
-<!-- navigation links: (≡) ChemBrains.com | Lessons | Reactions | Glossary | Blog | About | (search) -->
+<!-- navigation links: (icon) ChemBrains.com | Lessons | Reactions | Glossary | Blog | About | (search) -->
 <!-- these are not "popup" menu links; each of these goes to a page containing the sub-links -->
-<!-- on small screens, this gets compressed to a "caret" icon -->
+<!-- on small screens, this gets compressed to a "hamburger" icon (≡) -->
 
 
 <!-- search bar (hidden until toggled) -->
@@ -18,14 +18,18 @@
 
     <ul class="w3-navbar w3-large bg-brightblue white">
 
+        <!-- site logo & name, visible on all screen sizes -->
+        <li class="w3-left"><a href="{{ site.baseurl }}/" title="{{ site.name }}">
+            <img src="{{ site.baseurl }}/favicon-32x32.png" alt="ChemBrains Logo" class="">
+            <span class="logo-chem w3-text-shadow">Chem</span><span class="logo-brains w3-text-shadow">Brains</span></a>
+        </li>
+
         <!-- button to toggle nav menu (med/small screens) -->
-        <li class="w3-hide-large w3-left">
+        <li class="w3-hide-large w3-right">
             <a class="topnav-icons" href="javascript:void(0);" onclick="toggleNavMenu()" title="Menu"><i class="fa fa-bars"></i></a>
         </li>
 
-        <!-- site name, visible on all screen sizes -->
-        <li class="w3-left"><a href="{{ site.baseurl }}/" title="Home"><span
-                class="logo-chem w3-text-shadow">Chem</span><span class="logo-brains w3-text-shadow">Brains</span></a></li>
+
 
 
         <!-- links that we want visible on large screens -->
@@ -40,7 +44,7 @@
         <li class="w3-hide-small w3-hide-medium"><a href="{{ site.baseurl }}/about">About</a></li>
 
         <!-- search icon to toggle search bar (right-aligned) -->
-        <li class="w3-right">
+        <li class="w3-hide-small w3-hide-medium w3-right">
             <a href="javascript:void(0);" onclick="open_search(this)" title="Search ChemBrains" class="topnav-icons"><i class="fa fa-search"></i></a>
         </li>
 
@@ -53,6 +57,8 @@
             <span onclick="toggleNavMenu()" class="w3-closebtn w3-xlarge" title="Close Menu">&times;</span>
         </div>
         <ul class="w3-container w3-dropnav w3-large bg-brightblue white">
+            <li class=""><i class="fa fa-search"></i>
+                <div class="gcse-search"></div></li>
             <li class=""><a href="{{ site.baseurl }}/lessons">Lessons</a></li>
             <li class=""><a href="{{ site.baseurl }}/reactions">Reactions</a></li>
             <li class=""><a href="{{ site.baseurl }}/glossary">Glossary</a></li>
