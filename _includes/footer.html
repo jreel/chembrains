@@ -7,29 +7,23 @@
 <!-- full-width block -->
 <footer class="w3-row-padding w3-center bg-darkblue palegray">
 
-    <!-- two left columns of the footer will have a list of links -->
-    <div class="w3-col s6">
-        <div class="w3-row">
-            <div class="w3-col m6">
-                <ul class="w3-container w3-left-align w3-padding-8">
-                    <li><a class="" href="{{ site.baseurl }}/lessons">Lessons</a></li>
-                    <li><a class="" href="{{ site.baseurl }}/reactions">Reactions</a></li>
-                    <li><a class="" href="{{ site.baseurl }}/glossary">Glossary</a></li>
-                </ul>
-            </div>
-            <div class="w3-col m6">
-                <ul class="w3-container w3-left-align w3-padding-8">
-                    <li><a class="" href="{{ site.baseurl }}/blog">Blog</a></li>
-                    <li><a class="" href="{{ site.baseurl }}/about">About</a></li>
-                    <li><a class="" href="{{ site.baseurl }}/sitemap">Sitemap</a></li>
-                </ul>
-            </div>
-        </div>
+    <!-- left column of the footer will have a list of links -->
+    <div class="w3-col s4">
+        <ul class="w3-container w3-left w3-padding-8">
+            <li><a class="" href="{{ site.baseurl }}/lessons">Lessons</a></li>
+            <li><a class="" href="{{ site.baseurl }}/reactions">Reactions</a></li>
+            <li><a class="" href="{{ site.baseurl }}/glossary">Glossary</a></li>
+        </ul>
+        <ul class="w3-container w3-left w3-padding-8">
+            <li><a class="" href="{{ site.baseurl }}/blog">Blog</a></li>
+            <li><a class="" href="{{ site.baseurl }}/about">About</a></li>
+            <li><a class="" href="{{ site.baseurl }}/sitemap">Sitemap</a></li>
+        </ul>
     </div>
 
 
     <!-- remaining width of the footer should have copyright and social media stuff -->
-    <div class="w3-container w3-col s6 w3-right-align w3-padding-8">
+    <div class="w3-container w3-col s8 w3-right-align w3-padding-8">
         <div id="copyright" class="w3-container">
             &copy; {{ site.time | date: '%Y' }} {{ site.author }}
         </div>
