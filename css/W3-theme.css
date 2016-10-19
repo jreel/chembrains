@@ -112,7 +112,6 @@ html, body {
 }
 
 #headerLogo {
-    max-height: 50%;
     min-width: 10vw;
     max-width: 25vw;
 }
@@ -120,6 +119,7 @@ html, body {
 #headerLogo img {
     display: block;
     float: right;
+    max-height: 146px;
 }
 
 #headerSiteName {
@@ -150,12 +150,13 @@ div.cse .gsc-control-cse, div.gsc-control-cse {
 }
 
 td.gsc-search-button input.gsc-search-button {
-    background-color: #4CAF50;
-    border-color: #4CAF50
+    background-color: #a1f0ff;
+    border-color: #a1f0ff
+    width: auto !important;
 }
 
 td.gsc-search-button input.gsc-search-button:hover {
-    background-color: #46a049;
+    background-color: #c1f8ff;
 }
 
 input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button {
