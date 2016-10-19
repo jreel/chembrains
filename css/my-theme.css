@@ -7,17 +7,6 @@ body {
     background-image: none;
 }
 
-@media (min-width: 993px) {
-    /* large screens */
-    body {
-        background-image: url("http://jreel.github.io/chembrains/images/logo.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        background-size: contain;
-    }
-}
-
 .logo-chem {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
@@ -190,12 +179,18 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 .central-column {
     width: 90vw;
     margin: auto;
+    background-image: none;
 }
 
 @media (min-width: 993px) {
     /* large screens */
     .central-column {
         width: 900px !important;
+        background-image: url("http://jreel.github.io/chembrains/images/logo.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: contain;
     }
 }
 
