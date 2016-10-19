@@ -128,7 +128,14 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     font-size: 100px !important;
     display: block;
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
+}
+
+.pad-around {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .black {
