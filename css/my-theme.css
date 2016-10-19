@@ -162,7 +162,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     }
 }
 
-@media (min-width: 993px) {     /* large screens */
+@media (min-width: 1280px) {     /* very large screens */
     .card-icon {
         font-size: 100px !important;
     }
