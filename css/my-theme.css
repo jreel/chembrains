@@ -136,11 +136,21 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 }
 
 .card-icon {
-    font-size: 100px !important;
-    font-size: calc(40px + (100 - 40) * ((100vw - 400px) / (800 - 400))) !important;
+    font-size: 12vw !important;     /* smallest value */
     display: block;
     margin-left: 1rem;
     margin-right: 2rem;
+}
+@media (min-width: 601px) {     /* medium (tablet) screens */
+    .card-icon {
+        font-size: 8vw !important;
+    }
+}
+
+@media (min-width: 933px) {     /* large screens */
+    .card-icon {
+        font-size: 100px !important;
+    }
 }
 
 .pad-around {
@@ -148,6 +158,19 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     padding-right: 3% !important;
     padding-top: 1% !important;
     padding-bottom: 1% !important;
+}
+
+#footerLinks, #footerMeta {
+    text-align: center;
+}
+
+@media only screen and (min-width: 601px) {
+    #footerLinks {
+        text-align: left !important;
+    }
+    #footerMeta {
+        text-align: right !important;
+    }
 }
 
 .black {
