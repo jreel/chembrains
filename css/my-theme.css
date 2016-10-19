@@ -136,7 +136,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 }
 
 .index-card {
-    padding: 8px !important;
+    padding: 8px 16px !important;
 }
 .index-card h2 {
     margin-top: 0px !important;
