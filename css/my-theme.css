@@ -136,14 +136,14 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 }
 
 .card-icon {
-    font-size: 64px !important;     /* smallest value */
+    font-size: 60px !important;     /* smallest value */
     display: block;
     margin: 1rem;
     margin-right: 2rem;
 }
 @media (min-width: 601px) {     /* medium (tablet) screens */
     .card-icon {
-        font-size: 25vw !important;
+        font-size: 10vw !important;
     }
 }
 
