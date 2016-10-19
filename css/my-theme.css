@@ -168,6 +168,16 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 #footerLinks ul {
     float: none !important;
     display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#footerLinks ul:first-of-type {
+    padding-left: 0px !important;
+}
+
+#footerLinks ul:last-of-type {
+    padding-right: 0px !important;
 }
 
 @media only screen and (min-width: 933px) {
