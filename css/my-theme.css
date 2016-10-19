@@ -194,6 +194,21 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     }
 }
 
+#landingMain {
+    width: 100vw;
+    background-image: none;
+}
+
+@media (min-width: 993px) {
+    /* large screens */
+    #landingMain {
+        background-image: url("http://jreel.github.io/chembrains/images/logo.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: left;
+        background-size: contain;
+    }
+}
 
 #footerLinks, #footerLinks ul, #footerMeta {  /* small/non-screens default */
     text-align: center !important;
