@@ -99,13 +99,13 @@ div.cse .gsc-control-cse, div.gsc-control-cse {
 }
 
 td.gsc-search-button input.gsc-search-button {
-    background-color: #a1f0ff;
-    border-color: #a1f0ff
+    background-color: #184198;
+    border-color: #184198;
     width: auto !important;
 }
 
 td.gsc-search-button input.gsc-search-button:hover {
-    background-color: #c1f8ff;
+    background-color: #1852a9;
 }
 
 input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gsc-search-button {
