@@ -111,6 +111,12 @@ html, body {
     white-space: nowrap;
 }
 
+.logo-nowrap img {
+    display: inline;
+    width: 32px;
+    height: 32px;
+}
+
 #topNav, #topNav ul {
     width: 100%;
     width: 100vw;
