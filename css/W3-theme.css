@@ -107,6 +107,11 @@ html, body {
     opacity: 1 !important
 }
 
+#topNav, #topNav ul {
+    width: 100%;
+    width: 100vw;
+}
+
 #landingHeader {
     max-height: 50vh;
 }
