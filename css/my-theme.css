@@ -135,7 +135,12 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     overflow: auto;
 }
 
+.index-card {
+    padding: 8px !important;
+}
 .index-card h2 {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
     clear: none;
 }
 @media (min-width: 993px) {
@@ -164,10 +169,18 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 }
 
 .pad-around {
-    padding-left: 3% !important;
-    padding-right: 3% !important;
-    padding-top: 1% !important;
-    padding-bottom: 1% !important;
+    padding-left: 3vw !important;
+    padding-right: 3vw !important;
+    padding-top: 1vw !important;
+    padding-bottom: 1vw !important;
+}
+
+@media (min-width: 993px) {
+    /* large screens */
+    .pad-around {
+        padding-left: 1vw !important;
+        padding-right: 1vw !important;
+    }
 }
 
 #footerLinks, #footerLinks ul, #footerMeta {  /* small/non-screens default */
