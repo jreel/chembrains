@@ -96,14 +96,14 @@ html, body {
 .logo-chem {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 32px;
     color: #a1f0ff;
 }
 
 .logo-brains {
     font-family: "PT Sans Narrow", sans-serif;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 32px;
     color: #ffffff;
 }
 
@@ -115,6 +115,11 @@ html, body {
     display: inline;
     width: 32px;
     height: 32px;
+    margin-right: 1em;
+}
+
+.logo-nowrap .logo-chem {
+    margin-left: 1em;
 }
 
 #topNav, #topNav ul {
