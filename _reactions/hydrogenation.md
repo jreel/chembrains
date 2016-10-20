@@ -1,6 +1,5 @@
 ---
-layout: page
-navigation_weight: 2
+layout: reaction
 title: "Hydrogenation"
 summary: "Adds H<sub>2</sub> across a pi bond"
 ---
