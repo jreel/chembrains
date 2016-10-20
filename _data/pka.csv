@@ -1,4 +1,4 @@
-compoundname, pka, formula, conjbase
+compoundname,pka,formula,conjbase
 a carboxylic acid, around 5, RCOOH, RCOO<sup>&minus;</sup>
 a protonated alcohol, around -2, ROH<sub>2</sub><sup>+</sup>, ROH
 a protonated alkene (a carbocation), around -3, R<sub>2</sub>-<sup>+</sup>C-CH<sub>3</sub>, R<sub>2</sub>C=CH<sub>3</sub>
