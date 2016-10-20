@@ -199,7 +199,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
         background-image: url("http://jreel.github.io/chembrains/images/logo.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position: top left;
+        background-position: 0px 50px;
     }
 }
 
