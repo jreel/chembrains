@@ -187,7 +187,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
     }
 }
 
-#landingMain {
+#contentMain {
     width: 100vw;
     background-image: none;
     padding-bottom: 1em;
@@ -195,7 +195,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 
 @media (min-width: 993px) {
     /* large screens */
-    #landingMain {
+    #contentMain {
         background-image: url("http://jreel.github.io/chembrains/images/logo.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
