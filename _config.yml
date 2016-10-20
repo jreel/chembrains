@@ -31,9 +31,7 @@ collections:
   reactions:
     output: true
     permalink: "/reactions/:path"
-  glossary:
-    output: true
-    permalink: "/glossary/:path"
+
 
 
 version: v1.2.0
