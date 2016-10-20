@@ -1,0 +1,21 @@
+---
+# page containing listing of all reactions (from reactions category)
+title: Reactions
+permalink: "/reactions/"
+layout: default
+---
+
+<h1>Reactions:</h1>
+
+<div class="page-listing">
+    {% for reaction in site.reactions %}
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h2 class="media-heading"><a class="text-dblue" href="{{ reaction.url }}">{{ reaction.title }}</a></h2>
+            {{ reaction.summary }}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+

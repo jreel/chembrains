@@ -22,12 +22,18 @@ google_analytics:
 url: http://jreel.github.io/chembrains
 baseurl: /chembrains
 
-permalink: "/:title/"
+permalink: "/blog/:year/:month/:title/"
 paginate: 5
+paginate_path: "blog/page:num"
+excerpt_separator: "<!--more-->"
 
 collections:
   reactions:
     output: true
+    permalink: "/reactions/:path"
+  glossary:
+    output: true
+    permalink: "/glossary/:path"
 
 
 version: v1.2.0

@@ -1,0 +1,28 @@
+---
+# page containing a listing of pka table (from pka datafile)
+title: Table of pKas
+permalink: "/pka-table/"
+layout: default
+---
+
+<h1>Table of pKa Values</h1>
+
+<div class="page-listing">
+    <table>
+        <tr>
+            <th>Compound Name</th>
+            <th>Formula</th>
+            <th>pKa</th>
+            <th>Conjugate Base</th>
+        </tr>
+
+        {% for compound in site.data.pka %}
+        <tr>
+            <th>{{ compound.compoundname }}</th>
+            <th>{{ compound.formula }}</th>
+            <th>{{ compound.pka }}</th>
+            <th>{{ compound.conjbase }}</th>
+        </tr>
+        {% endfor %}
+    </table>
+</div>

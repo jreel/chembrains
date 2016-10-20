@@ -1,0 +1,15 @@
+---
+# layout for a individual reaction
+layout: default
+---
+
+<article class="page">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <span class="post-date">{{ page.date | date_to_string }}</span>
+
+
+    {{ content }}
+
+
+    {% include disqus.html %}
+</article>
