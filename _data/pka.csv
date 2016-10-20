@@ -1,5 +1,5 @@
 compoundname,pka,formula,conjbase
-a carboxylic acid, around 5, RCOOH, RCOO<sup>&minus;</sup>
+a carboxylic acid, around 5, RCOOH, RCOO:<sup>&minus;</sup>
 a protonated alcohol, around -2, ROH<sub>2</sub><sup>+</sup>, ROH
 a protonated alkene (a carbocation), around -3, R<sub>2</sub>-<sup>+</sup>C-CH<sub>3</sub>, R<sub>2</sub>C=CH<sub>3</sub>
 a protonated amine, around 10, H<sup>+</sup>NR<sub>3</sub>, NR<sub>3</sub>
@@ -7,13 +7,13 @@ a protonated ether, around -4, R<sub>2</sub>OH<sup>+</sup>, R<sub>2</sub>O
 a protonated ketone, around -7, R<sub>2</sub>C=OH<sup>+</sup>, R<sub>2</sub>C=O
 acetaldehyde, 17, CH<sub>3</sub>CHO, <sup>&minus;</sup>:CH<sub>2</sub>CHO
 acetamide (an amide), 15, CH<sub>3</sub>-CONH<sub>2</sub>, CH<sub>3</sub>-CONH:<sup>&minus;</sup>
-acetic acid, 4.8, CH<sub>3</sub>COOH, CH<sub>3</sub>COO<sup>&minus;</sup>
-acetoacetic acid (a &beta;-keto acid), 3.6, CH<sub>3</sub>(CO)CH<sub>2</sub>-COOH, CH<sub>3</sub>(CO)CH<sub>2</sub>-COO<sup>&minus;</sup>
-acetone (a ketone), 19, CH<sub>3</sub>(CO)CH<sub>3</sub>, <sup>&minus</sup>:CH<sub>2</sub>(CO)CH<sub>3</sub>
+acetic acid, 4.8, CH<sub>3</sub>COOH, CH<sub>3</sub>COO:<sup>&minus;</sup>
+acetoacetic acid (a &beta;-keto acid), 3.6, CH<sub>3</sub>(CO)CH<sub>2</sub>-COOH, CH<sub>3</sub>(CO)CH<sub>2</sub>-COO:<sup>&minus;</sup>
+acetone (a ketone), 19, CH<sub>3</sub>(CO)CH<sub>3</sub>, <sup>&minus;</sup>:CH<sub>2</sub>(CO)CH<sub>3</sub>
 acetonitrile, 25, CH<sub>3</sub>C&equiv;N, <sup>&minus;</sup>:CH<sub>2</sub>C&equiv;N
 acetylacetone (a &beta;-diketone), 9, CH<sub>3</sub>(CO)CH<sub>2</sub>(CO)CH<sub>3</sub>, CH<sub>3</sub>(CO)-<sup>&minus;</sup>:CH-(CO)CH<sub>3</sub>
 acetylene, 24, HC&equiv;CH, HC&equiv;C:<sup>&minus;</sup>
 acrylic acid (acroleic acid), 4.3, CH<sub>2</sub>=CH-COOH, CH<sub>2</sub>=CH-COO<sup>&minus;</sup>
-ammonia, 38, NH<sub>3</sub>, <sup>&minus;</sup>:NH<sub>2</sub>
+ammonia, 38, $$ NH\_3 $$, <sup>&minus;</sup>:NH<sub>2</sub>
 
 
