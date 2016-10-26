@@ -2,9 +2,11 @@
 layout: reaction
 title: "Hydrogenation"
 summary: "Adds H<sub>2</sub> across a pi bond"
+scheme: "hydrogenation.png"
 ---
+{% assign url = site.data.links %}
 
-Hydrogenation is a chemical reaction between molecular hydrogen (H<sub>2</sub>) and another compound or element, usually in the presence of a catalyst such as nickel, palladium or platinum. The process is commonly employed to reduce or saturate organic compounds. Hydrogenation typically constitutes the addition of pairs of hydrogen atoms to a molecule, often an alkene. Catalysts are required for the reaction to be usable; non-catalytic hydrogenation takes place only at very high temperatures. Hydrogenation reduces double and triple bonds in hydrocarbons.
+Hydrogenation typically constitutes the addition of a pair of hydrogen atoms to a molecule containing a double or triple bond, most often an [alkene]({{ url.alkene }}). The process utilizes [molecular hydrogen]({{ url.H2 }}) ([H<sub>2</sub>]({{ url.H2 }})) in the presence of a metal catalyst such as nickel, palladium or [platinum]({{ url.Pt }}). A catalyst is required for the reaction to be usable; non-catalytic hydrogenation takes place only at very high temperatures.
 
 Source: [Hydrogenation](https://en.wikipedia.org/wiki/Hydrogenation) (Wikipedia)
 
