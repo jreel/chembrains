@@ -316,18 +316,18 @@ article a:active {
 
 article table {
     width: auto;
-    border: 1px #999999;
+    border: 1px #999999 !important;
     border-collapse: collapse;
 }
 
-article td {
-    border: 1px #999999;
+article table td {
+    border: 1px #999999 !important;
     padding: 5px;
 }
 
-article th {
+article table th {
     font-weight: bold;
-    border: 1px #999999;
+    border: 1px #999999 !important;
     text-align: left;
     padding: 5px;
 }
@@ -336,7 +336,18 @@ article tr:hover {
     background-color: #f0f9ff;
 }
 
+article table caption {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 article abbr[title] {
     text-decoration: none !important;
     border-bottom: 1px dotted #999999 !important;
+}
+
+.post-meta {
+    margin-top: -1rem;
+    font-style: italic;
+    color: #999999;
 }
