@@ -316,20 +316,21 @@ article a:active {
 
 article table {
     width: auto;
+    min-width: 50%;
     border: 1px solid #999999 !important;
     border-collapse: collapse;
 }
 
 article table td {
     border: 1px solid #999999 !important;
-    padding: 5px;
+    padding: 5px 1rem;
 }
 
 article table th {
     font-weight: bold;
     border: 1px solid #999999 !important;
     text-align: left;
-    padding: 5px;
+    padding: 5px 1rem;
 }
 
 article tr:hover {
