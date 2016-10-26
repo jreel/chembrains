@@ -347,7 +347,7 @@ article abbr[title] {
 }
 
 .post-meta {
-    margin-top: -1rem;
+    margin-top: -1rem !important;
     font-style: italic;
     color: #999999;
 }
