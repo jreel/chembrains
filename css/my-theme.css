@@ -196,7 +196,7 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 @media (min-width: 993px) {
     /* large screens */
     #contentMain {
-        background-image: url("images/logo-bg.png");
+        background-image: url("../images/logo-bg.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: 0px 100px;

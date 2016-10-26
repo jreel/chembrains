@@ -9,7 +9,7 @@ layout: default
     {% for post in paginator.posts %}
     <div class="panel panel-default">
         <div class="panel-body">
-            <h2 class="media-heading"><a class="text-dblue" href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h2 class="media-heading"><a class="text-dblue" href="{{ base }}{{ post.url }}">{{ post.title }}</a></h2>
             <time class="media-meta text-muted" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
             {{ post.excerpt }}
             {% capture content_words %}
@@ -19,7 +19,7 @@ layout: default
                 {{ post.excerpt | number_of_words }}
             {% endcapture %}
             {% if excerpt_words != content_words %}
-                <p><a class="btn btn-sm btn-primary" href="{{ post.url }}/#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
+                <p><a class="btn btn-sm btn-primary" href="{{ base }}{{ post.url }}/#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
                 </p>
             {% endif %}
         </div>
