@@ -36,10 +36,10 @@
     </title>
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ base }}/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/reset.css">
 
-    <link rel="stylesheet" href="{{ base }}/css/W3.css">
-    <link rel="stylesheet" href="{{ base }}/css/my-theme.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/W3.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/my-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- fonts not used yet, possibly for later use
@@ -50,11 +50,11 @@
 
 
     <!-- Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ base }}/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="{{ base }}/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="{{ base }}/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="{{ base }}/manifest.json">
-    <link rel="mask-icon" href="{{ base }}/safari-pinned-tab.svg" color="#389dff">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+    <link rel="mask-icon" href="{{ site.baseurl }}/safari-pinned-tab.svg" color="#389dff">
     <meta name="apple-mobile-web-app-title" content="ChemBrains">
     <meta name="application-name" content="ChemBrains">
     <meta name="theme-color" content="#389dff">
@@ -64,7 +64,7 @@
     <![endif]-->
 
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="atom.xml"/>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/atom.xml"/>
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 
@@ -74,7 +74,7 @@
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
-    <script src="{{ base }}/js/quotes.js"></script>
+    <script src="{{ site.baseurl }}/js/quotes.js"></script>
 
     <!-- retain branding for google search box -->
     <script>
