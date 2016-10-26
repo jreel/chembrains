@@ -1,14 +1,36 @@
 ---
 # layout for a individual reaction
 layout: default
+schemes-subfolder: "/reactions/schemes/"
 ---
 
 <article class="page">
     <h1 class="post-title">{{ page.title }}</h1>
+    <span class="post-date">{{ page.summary }}</span>
 
+    <img src="{{ site.baseurl }}{{ schemes-subfolder }}{{ page.scheme }}">
 
     {{ content }}
+
+    <div>
+        <h2><abbr title="Functional Group Interconversions">FGIs</abbr> using {{ page.title }}:</h2>
+        <table>
+            <tr>
+                <th>Starting Material</th>
+                <th>Product</th>
+            </tr>
+
+            {% for rxn in site.data.fgi[page.slug] %}
+            <tr>
+                <td>{{ rxn.substrate }}</td>
+                <td>{{ rxn.product }}</td>
+            </tr>
+            {% endfor %}
+
+        </table>
+    </div>
 
 
     {% include disqus.html %}
 </article>
+

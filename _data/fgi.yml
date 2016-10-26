@@ -1,0 +1,18 @@
+hydrogenation:
+  - substrate: alkene
+    product: alkane
+
+  - substrate: alkyne
+    product: alkane
+
+  - substrate: aldehyde
+    product: alcohol
+
+  - substrate: ketone
+    product: alcohol
+
+  - substrate: nitro
+    product: amine
+
+  - substrate: benzene
+    product: cycloalkane

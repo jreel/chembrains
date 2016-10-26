@@ -1,4 +1,6 @@
 # hashmap of internal links
+# for easily linking between pages in different subfolders
+
 
 # reactions
 hydrogenation: '../reactions/hydrogenation.html'

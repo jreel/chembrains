@@ -292,3 +292,24 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 .bg-darkestblue {
     background-color: #0c1c47;
 }
+
+article a:link {
+    color: #389dff;
+    text-decoration: none;
+    font-face: bold;
+}
+
+article a:visited {
+    color: #2870cc;
+    text-decoration: none;
+    font-face: normal;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article a:active {
+    text-decoration: underline;
+    color: #a1f0ff;
+}
