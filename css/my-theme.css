@@ -296,13 +296,13 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
 article a:link {
     color: #389dff;
     text-decoration: none;
-    font-face: bold;
+    font-weight: bold;
 }
 
 article a:visited {
-    color: #2870cc;
+    color: #184198;
     text-decoration: none;
-    font-face: normal;
+    font-weight: normal;
 }
 
 article a:hover {
@@ -312,4 +312,31 @@ article a:hover {
 article a:active {
     text-decoration: underline;
     color: #a1f0ff;
+}
+
+article table {
+    width: auto;
+    border: 1px #999999;
+    border-collapse: collapse;
+}
+
+article td {
+    border: 1px #999999;
+    padding: 5px;
+}
+
+article th {
+    font-weight: bold;
+    border: 1px #999999;
+    text-align: left;
+    padding: 5px;
+}
+
+article tr:hover {
+    background-color: #f0f9ff;
+}
+
+article abbr[title] {
+    text-decoration: none !important;
+    border-bottom: 1px dotted #999999 !important;
 }
