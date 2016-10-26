@@ -22,8 +22,8 @@ schemes-subfolder: "/reactions/schemes/"
 
             {% for rxn in site.data.fgi[page.slug] %}
             <tr>
-                <td><a href="{{ url[rxn.substrate] }}">{{ rxn.substrate }}</a></td>
-                <td><a href="{{ url[rxn.product] }}">{{ rxn.product }}</a></td>
+                <td><a href="{{ site.data.links[rxn.substrate] }}">{{ rxn.substrate }}</a></td>
+                <td><a href="{{ site.data.links[rxn.product] }}">{{ rxn.product }}</a></td>
             </tr>
             {% endfor %}
 
