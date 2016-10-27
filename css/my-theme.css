@@ -347,6 +347,15 @@ article abbr[title] {
     border-bottom: 1px dotted #999999 !important;
 }
 
+abbr:not(:focus) {
+    cursor: help;
+}
+
+abbr:focus::after {
+    content: " (" attr(title) ") ";
+    display: inline;
+}
+
 .post-meta {
     margin-top: -10px !important;
     margin-bottom: 10px !important;
