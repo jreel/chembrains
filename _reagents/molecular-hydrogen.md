@@ -1,6 +1,6 @@
 ---
 layout: reagent
-title: "Molecular Hydrogen (H2)"
+title: "Molecular Hydrogen"
 slug: "molecular-hydrogen"
 structure: "H2.png"
 ---
