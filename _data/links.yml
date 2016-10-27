@@ -25,3 +25,8 @@ alkene: '../compound-classes/alkenes.html'
 # functional groups
 carbonyl: '../functional-groups/carbonyl.html'
 
+
+
+# concepts
+syn-addition: '../concepts/syn-addition.html'
+anti-addition: '../concepts/anti-addition.html'

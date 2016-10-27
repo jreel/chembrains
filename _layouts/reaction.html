@@ -8,13 +8,15 @@ schemes-subfolder: "/reactions/schemes/"
     <h1 class="post-title">{{ page.title }}</h1>
     <span class="post-meta">{{ page.summary }}</span>
 
+    <p>
     <img src="{{ site.baseurl }}{{ page.schemes-subfolder }}{{ page.scheme }}">
+    </p>
 
     {{ content }}
 
     <div>
         <table>
-            <caption><abbr title="Functional Group Interconversions">FGIs</abbr> using {{ page.title }}:</caption>
+            <caption><abbr title="Functional Group Interconversions">FGIs</abbr> via {{ page.title }}:</caption>
             <tr>
                 <th>Starting Material</th>
                 <th>Product</th>

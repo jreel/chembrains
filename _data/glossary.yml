@@ -1,0 +1,7 @@
+syn-addition:
+  def: "The addition of two substituents to the same face of a double or triple bond."
+  see-also: [addition, 'anti-addition']
+
+anti-addition:
+  def: "The addition of two substituents to opposite faces of a double or triple bond."
+  see-also: [addition, 'syn-addition']

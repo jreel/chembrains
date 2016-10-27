@@ -8,11 +8,19 @@ stereochem: "syn"
 regiochem: "N/A"
 ---
 {% assign url = site.data.links %}
+{% assign def = site.data.glossary %}
 
-Hydrogenation typically constitutes the addition of a pair of hydrogen atoms to a molecule containing a double or triple bond, most often an [alkene]({{ url.alkene }}). The process utilizes [molecular hydrogen]({{ url.H2 }}) ([H<sub>2</sub>]({{ url.H2 }})) in the presence of a metal catalyst such as nickel, palladium or [platinum]({{ url.Pt }}). A catalyst is required for the reaction to be usable; non-catalytic hydrogenation takes place only at very high temperatures.
+Hydrogenation typically constitutes the addition of a pair of hydrogen atoms to a molecule containing a double or triple bond, most often an [alkene][]. The process utilizes [molecular hydrogen][H2] ([H<sub>2</sub>][H2] in the presence of a metal catalyst such as nickel, palladium or [platinum][Pt]. A catalyst is required for the reaction to be usable; non-catalytic hydrogenation takes place only at very high temperatures.
 
 
-An important characteristic of hydrogenation is that hydrogen addition occurs with "syn addition", with hydrogen entering from the least hindered side...
+An important characteristic of hydrogenation is that hydrogen addition occurs with [<i>syn</i> addition][syn], as demonstrated by the diagram below. Note that although typically there is an equal likelihood of H<sub>2</sub> being added to either face, [steric hindrance][steric] may cause the less hindered side to be favored.
 
 
 See also: [Hydrogenation](https://en.wikipedia.org/wiki/Hydrogenation) on Wikipedia
+
+
+[alkene]: {{ url.alkene }}
+[H2]: {{ url.H2 }}
+[Pt]: {{ url.Pt }}
+[syn]: {{ url.syn-addition }}   {{ def.syn-addition.def }}
+[steric]: {{ url.steric-hindrance }}
