@@ -1,7 +1,80 @@
 syn-addition:
-  def: "The addition of two substituents to the same face of a double or triple bond."
+  def: "The addition of two substituents to the same face of a pi bond."
   see-also: [addition, 'anti-addition']
 
 anti-addition:
-  def: "The addition of two substituents to opposite faces of a double or triple bond."
+  def: "The addition of two substituents to opposite faces of a pi bond."
   see-also: [addition, 'syn-addition']
+
+pi-bond:
+  def: "A bond formed from overlap of p orbitals."
+  see-also: ['double-bond', 'triple-bond', 'sigma-bond']
+
+double-bond:
+  def: "A bond consisting of one sigma bond and one pi bond."
+  see-also: ['sigma-bond', 'pi-bond', 'triple-bond', 'single-bond']
+
+triple-bond:
+  def: "A bond consisting of one sigma bond and two pi bonds."
+  see-also: ['sigma-bond', 'pi-bond', 'double-bond', 'single-bond']
+
+single-bond:
+  def: "A bond consisting only of one sigma bond."
+  see-also: ['sigma-bond', 'double-bond', 'triple-bond'];
+
+sigma-bond:
+  def: "A bond formed from overlap of s (and/or hybridized sp3, sp2, sp) orbitals."
+  see-also: ['pi-bond', 'single-bond', hybridization]
+
+reduction:
+  def: "A net increase in the number of electrons and/or decrease in oxidation number."
+  see-also: [oxidation, addition, substitution, elimination]
+
+oxidation:
+  def: "A net decrease in the number of electrons and/or increase in oxidation number."
+  see-also: [reduction, addition, substitution, elimination]
+
+addition:
+  def: "Formation of two new sigma bonds from one pi bond. Opposite of elimination."
+  see-also: [elimination, substitution, oxidation, reduction]
+
+sterics:
+  def: "An unfavorable increase in energy resulting from crowding of substituents."
+  see-also: [strain, 'torsional-strain', 'van-der-Waals-repulsions']
+
+catalyst:
+  def: "A substance that increases rate of reaction without altering the energy of products or reactants, and without being consumed in the process."
+  see-also: [homogeneous, heterogeneous, inhibitor]
+
+heterogeneous:
+  def: "Taking place at the interface between two or more phases; for instance, a dissolved reactant reacting with an undissolved metal."
+  see-also: [homogeneous]
+
+homogeneous:
+  def: "Taking place in a single phase; for instance, when all reactants are dissolved and react in the same solution."
+  see-also: [heterogeneous]
+
+functional-group:
+  def: "An atom or group of atoms that has similar properties and undergoes similar reactions whenever it occurs in different compounds."
+
+
+substrate:
+  def: "The compound undergoing the reaction; the starting material."
+  see-also: [product, reagent]
+
+
+unsaturated:
+  def: "Having less than the maximum possible number of substituents; e.g., a carbon atom connected to fewer than 4 other atoms. Often used to describe alkenes and alkynes."
+  see-also: [saturated, 'degree-of-unsaturation', alkene, alkyne]
+
+saturated:
+  def: "Having the maximum possible number of substituents; e.g., a carbon atom connected to 4 other atoms. Often used to describe alkanes."
+  see-also: [unsaturated, 'degree-of-unsaturation', alkane]
+
+degree-of-unsaturation:
+  def: "A formula used to determine the number of rings and/or pi bonds present in a compound. DOU = C - (H/2) + 1."
+  see-also: [saturated, unsaturated, 'pi-bond']
+
+hydrocarbon:
+  def: "A chemical compound containing only the elements carbon and hydrogen."
+  see-also: [alkane, alkene, alkyne]

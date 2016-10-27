@@ -34,6 +34,15 @@ collections:
   reagents:
     output: true
     permalink: "reagents/:path"
+  compound-classes:
+    output: true
+    permalink: "compound-classes/:path"
+  functional-groups:
+    output: true
+    permalink: "functional-groups/:path"
+  concepts:
+    output: true
+    permalink: "concepts/:path"
 
 
 
