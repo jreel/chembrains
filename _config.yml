@@ -31,6 +31,9 @@ collections:
   reactions:
     output: true
     permalink: "reactions/:path"
+  reagents:
+    output: true
+    permalink: "reagents/:path"
 
 
 
