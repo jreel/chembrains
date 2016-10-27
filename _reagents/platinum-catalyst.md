@@ -4,6 +4,8 @@ title: "Pt catalyst"
 slug: "platinum-catalyst"
 structure: "Pt-cat.png"
 ---
+{% assign url = site.data.links %}
+{% assign def = site.data.glossary %}
 
 Platinum is used as the [catalyst][] in [hydrogenation][] reactions, [reducing][] [pi bonds][] in the presence of [hydrogen gas][]. It is typically listed in the reagents as **Pt** or **Pt/C**. The reaction may be similarly catalyzed by other metals, including:
  

@@ -4,6 +4,8 @@ title: "Molecular Hydrogen"
 slug: "molecular-hydrogen"
 structure: "H2.png"
 ---
+{% assign url = site.data.links %}
+{% assign def = site.data.glossary %}
 
 Molecular hydrogen (H<sub>2</sub>), also known as hydrogen gas, is used for the [reduction][] of [alkenes][], [alkynes][], and other [functional groups][] containing a [pi bond][]. This [addition reaction][] is known as [hydrogenation][] and requires a metal [catalyst][], such as [platinum][Pt] (Pt), [palladium][Pd] (Pd/C), nickel (Ni), etc.
 

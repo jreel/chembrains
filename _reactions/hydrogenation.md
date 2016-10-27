@@ -7,6 +7,8 @@ scheme: "hydrogenation.png"
 stereochem: "syn"
 regiochem: "N/A"
 ---
+{% assign url = site.data.links %}
+{% assign def = site.data.glossary %}
 
 Hydrogenation typically constitutes the [addition][] of a pair of hydrogen atoms to a molecule containing a double or triple bond, most often an [alkene][]. The process utilizes [molecular hydrogen][H2] ([H<sub>2</sub>][H2]) in the presence of a metal [catalyst][] such as [palladium][Pd] (Pd), [platinum][Pt] (Pt), or nickel (Ni). A catalyst is required for the reaction to be usable; non-catalytic hydrogenation takes place only at very high temperatures.
 

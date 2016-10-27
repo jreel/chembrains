@@ -3,6 +3,8 @@ layout: concept
 title: "Catalysts"
 slug: "catalysts"
 ---
+{% assign url = site.data.links %}
+{% assign def = site.data.glossary %}
 
 A catalyst is a substance that increases the rate of reaction without modifying the energy of either the reactants or products. The process by which a catalyst works is called *catalysis*.
 

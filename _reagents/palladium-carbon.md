@@ -4,6 +4,8 @@ title: "Palladium on Carbon"
 slug: "palladium-carbon"
 structure: "Pd-C.png"
 ---
+{% assign url = site.data.links %}
+{% assign def = site.data.glossary %}
 
 Palladium adsorbed on carbon (Pd/C) is often used as the [catalyst][] in [hydrogenation][] reactions, [reducing][] [pi bonds][] in the presence of [hydrogen gas][]. Adsorbing the metal onto carbon (in the form of very porous charcoal) provides a much larger surface area, increasing the rate of reaction. Hydrogenation reactions may be similarly catalyzed by other metals, including:
  
