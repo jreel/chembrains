@@ -20,7 +20,7 @@ triple-bond:
 
 single-bond:
   def: "A bond consisting only of one sigma bond."
-  see-also: ['sigma-bond', 'double-bond', 'triple-bond'];
+  see-also: ['sigma-bond', 'double-bond', 'triple-bond']
 
 sigma-bond:
   def: "A bond formed from overlap of s (and/or hybridized sp3, sp2, sp) orbitals."
@@ -57,11 +57,9 @@ homogeneous:
 functional-group:
   def: "An atom or group of atoms that has similar properties and undergoes similar reactions whenever it occurs in different compounds."
 
-
 substrate:
   def: "The compound undergoing the reaction; the starting material."
   see-also: [product, reagent]
-
 
 unsaturated:
   def: "Having less than the maximum possible number of substituents; e.g., a carbon atom connected to fewer than 4 other atoms. Often used to describe alkenes and alkynes."
