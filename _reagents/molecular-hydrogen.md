@@ -12,7 +12,7 @@ Molecular hydrogen (H<sub>2</sub>), also known as hydrogen gas, is used for the 
 
 [reduction]: {{ url.reduction }}
 [alkenes]: {{ url.alkene }}
-[alkynes]: {{ url.alkynes }}
+[alkynes]: {{ url.alkyne }}
 [pi bond]: {{ url.pi-bond }}
 [Pt]: {{ url.Pt }}
 [Pd]: {{ url.Pd }}

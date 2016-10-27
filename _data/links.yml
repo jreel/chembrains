@@ -10,13 +10,19 @@ hydrogenation: '../reactions/hydrogenation.html'
 
 # reagents
 H2: '../reagents/molecular-hydrogen.html'
-
 Pt: '../reagents/platinum-catalyst.html'
+Pd: '../reagents/palladium-carbon.html'
+Pd-C: '../reagents/palladium-carbon.html'
 
 
 
 # compound classes
+alkane: '../compound-classes/alkanes.html'
+alkanes: '../compound-classes/alkanes.html'
 alkene: '../compound-classes/alkenes.html'
+alkenes: '../compound-classes/alkenes.html'
+alkyne: '../compound-classes/alkynes.html'
+alkynes: '../compound-classes/alkynes.html'
 
 
 
@@ -31,3 +37,5 @@ carbonyl: '../functional-groups/carbonyl.html'
 syn-addition: '../concepts/syn-addition.html'
 anti-addition: '../concepts/anti-addition.html'
 sterics: '../concepts/sterics.html'
+reduction: '../concepts/reduction.html'
+pi-bond: '../concepts/pi-bond.html'
